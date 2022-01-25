@@ -8,6 +8,7 @@
  */
 void on_center_button() {
 	static bool pressed = false;
+	//Hello
 	pressed = !pressed;
 	if (pressed) {
 		pros::lcd::set_text(2, "I was pressed!");
